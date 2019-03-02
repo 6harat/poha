@@ -4,7 +4,11 @@
   "description": "A text editor for peer programming",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "npm run build && electron ./dist/main.js",
+    "clean": "rm -rf dist/",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json"
   },
   "repository": "git@github.com:Gulats/poha.git",
   "keywords": [
@@ -13,6 +17,18 @@
   "author": "GitHub",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^4.0.6"
+    "@types/react": "^16.8.6",
+    "@types/react-dom": "^16.8.2",
+    "@types/react-redux": "^7.0.1",
+    "electron": "^4.0.6",
+    "tslint": "^5.10.0",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "rxjs": "^6.4.0"
   }
 }
