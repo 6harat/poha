@@ -1,0 +1,18 @@
+{
+  "name": "poha",
+  "version": "1.0.0",
+  "description": "A text editor for peer programming",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "git@github.com:Gulats/poha.git",
+  "keywords": [
+    "editor"
+  ],
+  "author": "GitHub",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^4.0.6"
+  }
+}

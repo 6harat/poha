@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Editor</title>
+  </head>
+  <body>
+    <h1>Editor</h1>
+    Build Info:
+    Nodejs  : <script>document.write(process.versions.node)</script>,
+    Chromium: <script>document.write(process.versions.chrome)</script>,
+    Electron: <script>document.write(process.versions.electron)</script>.
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+  </body>
+</html>
