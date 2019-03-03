@@ -1,0 +1,9 @@
+{
+    "actions": {
+        "submit": "Einreichen",
+        "continue": "Weiterfahren",
+        "cancel": "Abbrechen",
+        "accept": "Akzeptieren",
+        "reload": "Nachladen"
+    }
+}

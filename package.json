@@ -22,13 +22,20 @@
     "@types/react-redux": "^7.0.1",
     "electron": "^4.0.6",
     "tslint": "^5.10.0",
+    "tslint-react": "^3.6.0",
     "typescript": "^3.2.2"
   },
   "dependencies": {
+    "@types/react-intl": "^2.3.17",
+    "@types/styled-components": "^4.1.11",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
+    "react-intl": "^2.8.0",
     "react-redux": "^6.0.1",
+    "react-router-dom": "^4.3.1",
     "redux": "^4.0.1",
-    "rxjs": "^6.4.0"
+    "redux-observable": "^1.0.0",
+    "rxjs": "^6.4.0",
+    "styled-components": "^4.1.3"
   }
 }

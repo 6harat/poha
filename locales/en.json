@@ -1,0 +1,9 @@
+{
+    "actions": {
+        "submit": "Submit",
+        "continue": "Continue",
+        "cancel": "Cancel",
+        "accept": "Accept",
+        "reload": "Reload"
+    }
+}
